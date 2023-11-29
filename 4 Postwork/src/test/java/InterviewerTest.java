@@ -143,7 +143,7 @@ Repetir los pasos 2 y 3 hasta que todos los criterios de aceptación sean valida
 
   @Test
   public void testAddInterviewer() {
-    Interviewer interviewer = new Interviewer("John", "Doe", "john@example.com", true);
+    Interviewer interviewer = new Interviewer("Cristian", "Diaz", "cristian@test.com", true);
     Interviewer addedInterviewer = interviewer.add();
 
     Assert.assertNotNull(addedInterviewer);
@@ -153,7 +153,7 @@ Repetir los pasos 2 y 3 hasta que todos los criterios de aceptación sean valida
 
   @Test(dependsOnMethods = "testAddInterviewer")
   public void testDeleteInterviewer() throws Exception {
-    Interviewer interviewer = new Interviewer("Jane", "Smith", "jane@example.com", true);
+    Interviewer interviewer = new Interviewer("Cristian", "Diaz", "jcristian@test", true);
     interviewer.add();
 
     int initialSize = Interviewer.data.size();
@@ -165,10 +165,10 @@ Repetir los pasos 2 y 3 hasta que todos los criterios de aceptación sean valida
 
   @Test(dependsOnMethods = "testAddInterviewer")
   public void testGetByEmail() {
-    Interviewer interviewer = new Interviewer("Alice", "Johnson", "alice@example.com", true);
+    Interviewer interviewer = new Interviewer("Lorena", "Manrique", "alice@example.com", true);
     interviewer.add();
 
-    Interviewer retrievedInterviewer = Interviewer.getByEmail("alice@example.com");
+    Interviewer retrievedInterviewer = Interviewer.getByEmail("lorena@test.com");
 
     Assert.assertNotNull(retrievedInterviewer);
     Assert.assertEquals(retrievedInterviewer.getEmail(), interviewer.getEmail());
