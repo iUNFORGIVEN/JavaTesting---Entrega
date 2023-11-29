@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de Ejemplo">
+    <test name="Caso de Prueba de Ejemplo">
+        <groups>
+            <run>
+                <include name="grupo1" />
+                <include name="grupo3" />
+                <include name="grupo4" />
+                <include name="EnvDev" />
+                <include name="sumaParametrizada"/>
+                <include name="multipParametrizada"/>
+                <include name="testDisplay"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test"/>
+        </classes>
+    </test>
+</suite>

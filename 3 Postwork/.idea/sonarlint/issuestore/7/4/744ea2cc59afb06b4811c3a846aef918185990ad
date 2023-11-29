@@ -1,0 +1,12 @@
+
+g	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(ÛÛáéüÿÿÿÿ8”²ÇØÁ1
+b	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(³Èæ‰8•²ÇØÁ1
+l
+java:S2095l"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ï¡Œ·8´²ÇØÁ1
+o
+java:S2095k"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(à¸çĞşÿÿÿÿ8´²ÇØÁ1
+r
+java:S2095^"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(ğ™òŠûÿÿÿÿ8´²ÇØÁ1
+k
+java:S2095]"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ò§À¶8´²ÇØÁ1
+L	java:S1067"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Á²ÇØÁ1
